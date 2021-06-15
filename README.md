@@ -1,4 +1,4 @@
-## Connect your Metamask to Binance Smart Chain in one click
+## Connect your Metamask to Joys Digital in one click
 
 [Deployed on github-pages](https://alexey-zhdanov.github.io/metamask-to-joys/)
 
