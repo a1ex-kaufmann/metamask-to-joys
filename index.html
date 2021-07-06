@@ -69,19 +69,19 @@
             if (typeof window.ethereum == 'undefined') {
                 alert('MetaMask is not installed!');
             } else {
-                if (window.ethereum.chainId == "0x2231c60") {
+                if (window.ethereum.chainId == "0x5ecf69a") {
                     alert("You are already connected to JOYS network with ID 0x2231c60")
                 }
 
                 const chain = {
-                    chainId: "0x2231c60",
-                    chainName: "Joys Digital Mainnet (POAS)",
+                    chainId: "0x5ecf69a",
+                    chainName: "Joys Digital Testnet (POAS)",
                     nativeCurrency: {
-                        name: "JOYS",
-                        symbol: "JOYS",
+                        name: "TOYS",
+                        symbol: "TOYS",
                         decimals: 18,
                     },
-                    rpcUrls: ["https://node-poas.joys.digital"],
+                    rpcUrls: ["https://node.toys-pos.joys.cash/"],
                     blockExplorerUrls: ["https://explorer.joys.digital/"],
                     iconUrls: []
                 };
